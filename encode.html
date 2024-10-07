@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       {
+
+        // encode url & decode url
+
+
+         const url = 'http://contoh.com/?name=raihan arif rahman';
+        console.info(url);
+
+        const encoded = encodeURI(url);
+        console.info(encoded);
+
+        const decoded = decodeURI(encoded);
+        console.info(decoded);
+    }
+    { 
+
+
+        const value = "Raihan&Arif=Rahman;"
+        const url = 'http/www.contoh.com/?name';
+        
+        const encode = encodeURIComponent(value);
+        console.info(url + encode);
+
+        const decoded = decodeURIComponent(encode);
+        console.info(url + decoded);
+    }
+    </script>
+</body>
+</html>

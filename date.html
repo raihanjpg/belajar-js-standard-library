@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    {
+        //create date
+
+        const date1 = new Date();
+    console.info(date1);
+
+    const date2 = new Date(2024, 10, 10);
+    console.info(date2); 
+
+    const date3 = new Date(2020, 10 ,10, 1, 0, 0, 0);
+    console.info(date3);
+    }
+
+    {
+        // date parsing
+
+        const time = Date.parse("2020-10-10T08:45:45.123+07:00");
+        console.info(time);    
+}
+    </script>
+</body>
+</html>
